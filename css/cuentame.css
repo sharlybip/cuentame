@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#2e0bd3), color-stop(#8600c7), color-stop(#b700ba), color-stop(#da00ad), to(#f600a1));
+  background-image: linear-gradient(to right bottom, #2e0bd3, #8600c7, #b700ba, #da00ad, #f600a1);
+  width: 500px;
+  height: 350px;
+  padding: 10px;
+}
+
+.card {
+  border: 1px solid #eee;
+  padding: 5px;
+  color: #eee;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 40px;
+}
+form label {
+  margin-right: 20px;
+}
+form input {
+  margin: 0 0 0 auto;
+  background-color: #f8f7f87c;
+  border: navajowhite;
+  margin-bottom: 5px;
+  height: 30px;
+  color: #eee;
+  font-size: 24px;
+  padding-left: 5px;
+}
+form input:focus {
+  outline: 1px solid #eee;
+}
+form #habia {
+  width: 75%;
+}
+form #que_siempre, form #pero_un_dia {
+  width: 55%;
+}
+form #por_lo_que {
+  width: 60%;
+}
+form #hasta {
+  width: 32%;
+}
