@@ -6,6 +6,24 @@
   font-family: sans-serif;
 }
 
+body {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body h1 {
+  -webkit-margin-after: 30px;
+          margin-block-end: 30px;
+}
+
 .container {
   background-image: -webkit-gradient(linear, left top, right bottom, from(#2e0bd3), color-stop(#8600c7), color-stop(#b700ba), color-stop(#da00ad), to(#f600a1));
   background-image: linear-gradient(to right bottom, #2e0bd3, #8600c7, #b700ba, #da00ad, #f600a1);
@@ -66,4 +84,29 @@ form #por_lo_que {
 }
 form #hasta {
   width: 32%;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 16px;
+  }
+
+  body, .container, .card {
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  form {
+    padding: 10px;
+  }
+  form label {
+    font-size: 16px;
+  }
+  form input {
+    height: 20px;
+    font-size: 16px;
+  }
 }
